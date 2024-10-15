@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aslanhudorg.flashqr"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,10 +28,25 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Ge Flash QR åtkomst till kameran"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3d2ca8de-89a6-483d-aacd-4ac0f7207160"
+      }
+    },
+    "owner": "aslanhud-org"
   }
 }

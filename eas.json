@@ -1,0 +1,11 @@
+{
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "enterpriseProvisioning": "universal"
+      }
+    },
+    "production": {}
+  }
+}
