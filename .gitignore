@@ -20,6 +20,7 @@ expo-env.d.ts
 # @end expo-cli
 
 /credentials
+credentials.json
 ios/certs/*
 ios/certs/
 /ios/certs/

@@ -3,7 +3,8 @@
     "preview": {
       "distribution": "internal",
       "ios": {
-        "enterpriseProvisioning": "universal"
+        "enterpriseProvisioning": "universal",
+        "credentialsSource": "local"
       }
     },
     "production": {}
