@@ -126,6 +126,7 @@ const styles = StyleSheet.create({
   message: {
     textAlign: "center",
     paddingBottom: 10,
+    color: "white",
   },
   camera: {
     flex: 1,
