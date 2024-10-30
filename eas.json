@@ -1,11 +1,15 @@
 {
+  "cli": {
+    "appVersionSource": "remote"
+  },
   "build": {
     "preview": {
       "distribution": "internal",
       "ios": {
         "enterpriseProvisioning": "universal",
         "credentialsSource": "local"
-      }
+      },
+      "autoIncrement": true
     },
     "production": {}
   }
